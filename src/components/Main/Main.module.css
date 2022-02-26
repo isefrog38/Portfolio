@@ -1,0 +1,43 @@
+.main {
+    height: 100vh;
+    background: rgba(249, 86, 79, 0.13);
+    z-index: 1;
+}
+
+.main:after {
+    content: "";
+    width: 1200px;
+    height: 1000px;
+    border-radius: 50%;
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    background-color: #fff;
+    z-index: -1;
+}
+
+
+.mainContainer {
+    display: flex;
+    /*border: 1px dashed;*/
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.HomeInfo {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeInfoPhoto {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    float: right;
+}

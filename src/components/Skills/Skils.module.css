@@ -1,0 +1,37 @@
+.skillsBlock {
+    width: 100%;
+    height: 100vh;
+    background-color: #ceffce;
+}
+
+.titleH2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.skills {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9efafa;
+    width: 30%;
+    height: 27%;
+    padding: 10px;
+    justify-content: center;
+}
+
+h5 {
+    font-size: larger;
+}
