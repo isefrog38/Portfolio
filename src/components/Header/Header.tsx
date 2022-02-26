@@ -6,8 +6,8 @@ export const Header = () => {
         <div className={s.headerParent}>
             <div className={s.headerChild}>
                     <a href="#">Home</a>
-                    <a href="#">About Me</a>
                     <a href="#">Skills</a>
+                    <a href="#">Freelance</a>
                     <a href="#">Projects</a>
                     <a href="#">Contact</a>
             </div>

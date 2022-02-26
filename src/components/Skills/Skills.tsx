@@ -59,6 +59,7 @@ export const Skills = () => {
             <div className={s.skills}>
                 {array.map(el => (
                     <div key={el.id} className={s.skill}>
+                        <div className={s.divJpg}>JPG</div>
                         <h3>{el.title}</h3>
                         <span>{el.description}</span>
                     </div>

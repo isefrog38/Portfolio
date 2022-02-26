@@ -1,0 +1,73 @@
+.mainBlockProject{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    /*background-color: #c5b1ee;*/
+    padding-bottom: 100px;
+}
+
+.allProjectsBlock {
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleProject {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgBlock {
+    width: 350px;
+    height: 380px;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(210, 83, 83, 0.49);
+}
+
+.oneProject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    min-height: 300px;
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 7px 3px rgba(169, 169, 169, 0.51);
+}
+
+.button {
+    border: 2px solid;
+    margin-top: 10px;
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: lightpink;
+    color: white;
+    border: 2px solid rgba(210, 83, 83, 0.49);
+}
+
+.titleAndDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}

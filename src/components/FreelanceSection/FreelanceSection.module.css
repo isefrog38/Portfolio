@@ -1,0 +1,41 @@
+.allFreelanceBlock {
+    width: 100%;
+    background-color: #ff362d;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.titleFreelance {
+    width: 100%;
+    color: white;
+    font-size: xx-large;
+}
+
+.buttonContact {
+    color: #00171f;
+    padding: 0 25px;
+    line-height: 42px;
+    position: relative;
+    display: inline-block;
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+.buttonContact:hover {
+    color: white;
+    background-color:  #ff362d;
+    border: 1px solid white;
+}
+
+.buttonContact:focus {
+    color: white;
+    background-color:  #ff362d;
+    border: 1px solid white;
+}

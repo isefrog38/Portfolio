@@ -3,6 +3,8 @@ import s from "./GlobalPage.module.css";
 import {Header} from "./Header/Header";
 import {Main} from "./Main/Main";
 import {Skills} from "./Skills/Skills";
+import {FreelanceSection} from "./FreelanceSection/FreelanceSection";
+import {Project} from "./Project/Project";
 
 export const GlobalPage = () => {
     return (
@@ -10,6 +12,8 @@ export const GlobalPage = () => {
             <Header />
             <Main/>
             <Skills/>
+            <FreelanceSection/>
+            <Project />
         </div>
     );
 };

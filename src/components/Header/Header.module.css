@@ -23,20 +23,20 @@ a {
 }
 
 a:active {
-    background-color: #f9564f;
-    border-radius: 40px;
+    background-color: #ff362d;
+    border-radius: 10px;
     color: white;
 }
 
 a:focus {
-    background-color: #f9564f;
-    border-radius: 40px;
+    background-color: #ff362d;
+    border-radius: 10px;
     color: white;
 }
 
 a:hover {
-    background-color: #f9564f;
-    border-radius: 40px;
+    background-color: #ff362d;
+    border-radius: 10px;
     color: white;
 }
 
