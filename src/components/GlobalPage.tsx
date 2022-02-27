@@ -5,6 +5,7 @@ import {Main} from "./Main/Main";
 import {Skills} from "./Skills/Skills";
 import {FreelanceSection} from "./FreelanceSection/FreelanceSection";
 import {Project} from "./Project/Project";
+import {Contacts} from "./Contacts/Contacts";
 
 export const GlobalPage = () => {
     return (
@@ -14,6 +15,7 @@ export const GlobalPage = () => {
             <Skills/>
             <FreelanceSection/>
             <Project />
+            <Contacts />
         </div>
     );
 };

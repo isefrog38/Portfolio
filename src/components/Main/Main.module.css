@@ -6,6 +6,12 @@
     z-index: 1;
 }
 
+@media (min-width: 300px) and (max-width: 500px) {
+    .main {
+        width: 400px;
+    }
+}
+
 .mainContainer {
     display: flex;
     width: 80%;

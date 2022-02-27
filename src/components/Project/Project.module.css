@@ -6,6 +6,12 @@
     padding-bottom: 100px;
 }
 
+@media (min-width: 300px) and (max-width: 500px) {
+    .mainBlockProject {
+        width: 400px;
+    }
+}
+
 .allProjectsBlock {
     box-sizing: border-box;
     width: 90%;
@@ -24,7 +30,6 @@
 }
 
 .projects {
-    width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -48,10 +53,33 @@
     min-height: 300px;
     padding: 10px;
     justify-content: center;
-    margin: 10px;
+    margin: 0 20px;
     border: 1px solid black;
-    box-shadow: 7px 5px rgba(169, 169, 169, 0.51);
     border-radius: 10px;
+    box-shadow: 3px 3px 5px 1px rgba(169, 169, 169, 0.51);
+}
+
+.oneProject:hover {
+    box-shadow: 7px -7px 15px 1px #f9564f, -7px 7px 15px 1px #f9564f;
+    transition: ease all 0.15s;
+    margin: -20px 0 10px 0;
+    padding-bottom: 20px;
+    width: 450px;
+    min-height: 350px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .oneProject {
+        margin: 20px 0 0 0;
+    }
+    .oneProject:hover {
+        box-shadow: 7px -7px 15px 1px #f9564f, -7px 7px 15px 1px #f9564f;
+        transition: ease all 0.15s;
+        padding-bottom: 20px;
+        width: 100%;
+        min-height: auto;
+        margin: 20px 0 0 0;
+    }
 }
 
 .button {
@@ -63,7 +91,7 @@
 }
 
 .button:hover {
-    background-color: lightpink;
+    background-color: #f9564f;
     color: white;
     border: 2px solid rgba(210, 83, 83, 0.49);
 }
