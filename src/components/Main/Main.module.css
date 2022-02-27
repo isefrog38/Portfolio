@@ -1,12 +1,13 @@
 .main {
-    height: 100vh;
+    padding-top: 100px;
+    width: 100%;
+    min-height: 100vh;
     background: rgba(249, 86, 79, 0.13);
     z-index: 1;
 }
 
 .mainContainer {
     display: flex;
-    /*border: 1px dashed;*/
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -15,17 +16,61 @@
     flex-wrap: wrap;
 }
 
+{/* text  */}
+
+.spanText {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f9564f;
+}
+
+.Name {
+    font-weight: 800;
+    color: #00171f;
+    margin: 5px 0;
+    font-size: 2.5rem;
+
+}
+
+.whoIam{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #00171f;
+    margin: 0 0 15px 0;
+}
+{/* text  */}
+
+
+
 .HomeInfo {
-    width: 350px;
     height: auto;
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 .HomeInfoPhoto {
-    width: 350px;
-    height: 400px;
+    margin-top: 10px;
+    width: 500px;
+    height: 650px;
     background-color: white;
     float: right;
+    border: 1px dashed orange;
+}
+
+.CNBlock {
+    display: flex;
+}
+
+.socialNetwork {
+    height: 35px;
+    width: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9564f;
+    color: #fff;
+    border-radius: 50%;
+    margin: 5px;
 }

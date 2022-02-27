@@ -8,7 +8,7 @@
 
 .allProjectsBlock {
     box-sizing: border-box;
-    width: 80%;
+    width: 90%;
     height: auto;
     display: flex;
     margin: 0 auto;
@@ -24,8 +24,10 @@
 }
 
 .projects {
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .imgBlock {
@@ -48,7 +50,8 @@
     justify-content: center;
     margin: 10px;
     border: 1px solid black;
-    box-shadow: 7px 3px rgba(169, 169, 169, 0.51);
+    box-shadow: 7px 5px rgba(169, 169, 169, 0.51);
+    border-radius: 10px;
 }
 
 .button {
