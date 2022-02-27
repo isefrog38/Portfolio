@@ -10,7 +10,7 @@
 
 @media (min-width: 300px) and (max-width: 500px) {
     .allFreelanceBlock {
-        width: 400px;
+        width: 450px;
     }
 }
 
@@ -30,8 +30,8 @@
     background: white;
     border: 1px solid white;
     border-radius: 5px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .buttonContact:hover {

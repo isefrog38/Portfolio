@@ -1,13 +1,13 @@
 .skillsBlock {
     width: 100%;
     min-height: 100vh;
-    background-color: #ceffce;
     padding-bottom: 100px;
+    background-color: rgba(255, 190, 200, 0.25);
 }
 
 @media (min-width: 300px) and (max-width: 500px) {
     .skillsBlock {
-        width: 400px;
+        width: 450px;
     }
 }
 
@@ -29,7 +29,7 @@ h2{
     height: 80%;
     margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .divJpg {
@@ -48,6 +48,12 @@ h2{
     padding: 10px;
     justify-content: center;
     margin: 10px;
+}
+
+.skill:hover {
+    box-sizing: border-box;
+    box-shadow: 7px -7px 15px 1px #f9564f, -7px 7px 15px 1px #f9564f;
+    transition: ease all 0.15s;
 }
 
 h5 {

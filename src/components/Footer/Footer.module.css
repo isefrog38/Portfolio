@@ -1,0 +1,37 @@
+.footerBlock {
+    width: 100%;
+    height: auto;
+    background: #00171f;
+}
+
+.flexBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CNBlock{
+    margin-left: 50px;
+}
+
+.socialNetwork {
+    height: 35px;
+    width: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9564f;
+    color: #fff;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.textFooter{
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    flex-direction: column;
+    align-items: center;
+}
+

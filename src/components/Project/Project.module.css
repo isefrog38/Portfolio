@@ -2,13 +2,12 @@
     box-sizing: border-box;
     width: 100%;
     min-height: 100vh;
-    /*background-color: #c5b1ee;*/
     padding-bottom: 100px;
 }
 
 @media (min-width: 300px) and (max-width: 500px) {
     .mainBlockProject {
-        width: 400px;
+        width: 450px;
     }
 }
 
