@@ -4,6 +4,12 @@
     background: #00171f;
 }
 
+@media (min-width: 300px) and (max-width: 500px) {
+    .footerBlock {
+        width: 450px;
+    }
+}
+
 .flexBlock {
     display: flex;
     justify-content: space-between;
@@ -11,7 +17,15 @@
 }
 
 .CNBlock{
+    display: flex;
     margin-left: 50px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .CNBlock {
+        margin:0 10px;
+        width: 300px;
+    }
 }
 
 .socialNetwork {
@@ -33,5 +47,17 @@
     font-size: 1.1rem;
     flex-direction: column;
     align-items: center;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .socialNetwork {
+        height: 45px;
+        width: 45px;
+        margin: 4px;
+    }
+
+    .textFooter {
+        width: 330px;
+    }
 }
 
