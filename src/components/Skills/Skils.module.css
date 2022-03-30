@@ -35,7 +35,13 @@ h2{
 .divJpg {
     width: 70px;
     height: 70px;
-    background-color: lightpink;
+    background-color: transparent;
+}
+
+.img_skills {
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
 }
 
 .skill {

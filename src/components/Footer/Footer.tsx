@@ -5,7 +5,8 @@ import twitter from "../Assets/socialIcon/twitter.png";
 import linkedIn from "../Assets/socialIcon/Linked.png";
 import telegram from "../Assets/socialIcon/telegram.png";
 import Vk from "../Assets/socialIcon/mail.png";
-import {Facebook, LinkedIn, Telegram, Twitter, Vkontakte} from "../Main/Main";
+import {Facebook, Git, LinkedIn, Telegram, Twitter, Vkontakte} from "../Main/Main";
+import git from "../Assets/socialIcon/git.png";
 
 export const Footer = () => {
     return (
@@ -17,6 +18,7 @@ export const Footer = () => {
                         <a href={LinkedIn}><img className={s.socialNetwork} src={linkedIn} alt="linkedIn"/></a>
                         <a href={Telegram}><img className={s.socialNetwork} src={telegram} alt="telegram"/></a>
                         <a href={Vkontakte}><img className={s.socialNetwork} src={Vk} alt="mail"/></a>
+                        <a href={Git}><img className={s.socialNetwork} src={git} alt="git"/></a>
                     </div>
                     <div className={s.textFooter}>
                         <h4 style={{fontSize: "1.5rem", margin: "0"}}>Pavel Kuharchik</h4>
