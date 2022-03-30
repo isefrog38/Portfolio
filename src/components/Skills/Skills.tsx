@@ -1,6 +1,7 @@
 import React from 'react';
 import s from "./Skils.module.css";
 
+
 export const Skills = () => {
 
     let array = [
@@ -35,21 +36,29 @@ export const Skills = () => {
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. "
         },
         {
-            id: 6,
+            id: 7,
             title: "Styled Components",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. "
         },
         {
-            id: 6,
+            id: 8,
             title: "SCSS/HTML",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. "
         },
         {
-            id: 6,
+            id: 9,
             title: "JavaScript",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. "
         },
     ];
+    const mapingSkills = array.map(el => (
+        <div key={el.id*13} className={s.skill}>
+            <div className={s.divJpg}>JPG</div>
+            <h3>{el.title}</h3>
+            <span>{el.description}</span>
+        </div>
+        )
+    );
 
     return (
         <div className={s.skillsBlock}>
@@ -57,13 +66,7 @@ export const Skills = () => {
                 <h2>Skills</h2>
             </div>
             <div className={s.skills}>
-                {array.map(el => (
-                    <div key={el.id} className={s.skill}>
-                        <div className={s.divJpg}>JPG</div>
-                        <h3>{el.title}</h3>
-                        <span>{el.description}</span>
-                    </div>
-                ))}
+                {mapingSkills}
             </div>
         </div>
     );

@@ -21,6 +21,19 @@ export const Project = () => {
         },
     ];
 
+    const mapingProject = arrayProject.map(pr =>
+            <div key={pr.id*15} className={s.oneProject}>
+                <div className={s.imgBlock}>
+                    <div className={s.img}>IMG</div>
+                </div>
+                <button className={s.button}>View project</button>
+                <div className={s.titleAndDescription}>
+                    <h5>{pr.title}</h5>
+                    <span>{pr.description}</span>
+                </div>
+            </div>
+    );
+
     return (
         <div className={s.mainBlockProject}>
             <div className={s.allProjectsBlock}>
@@ -28,18 +41,7 @@ export const Project = () => {
                     <h2>Project</h2>
                 </div>
                 <div className={s.projects}>
-                    {arrayProject.map(pr =>
-                        <div key={pr.id} className={s.oneProject}>
-                            <div className={s.imgBlock}>
-                                <div className={s.img}>IMG</div>
-                            </div>
-                            <button className={s.button}>View project</button>
-                            <div className={s.titleAndDescription}>
-                            <h5>{pr.title}</h5>
-                            <span>{pr.description}</span>
-                            </div>
-                        </div>
-                    )}
+                    {mapingProject}
                 </div>
             </div>
         </div>
