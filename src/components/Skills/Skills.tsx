@@ -1,14 +1,14 @@
 import React from 'react';
 import s from "./Skils.module.css";
-import js from "../Assets/skills/js.png";
-import html from "../Assets/skills/html.png";
-import react from "../Assets/skills/react.png";
-import redux from "../Assets/skills/redux.jpg";
-import jest from "../Assets/skills/jest.png";
-import css from "../Assets/skills/css.png";
-import api from "../Assets/skills/api.png";
-import typeScript from "../Assets/skills/ts.png";
-import styledCopm from "../Assets/skills/stuledComp.png";
+import js from "../../Assets/skills/js.png";
+import html from "../../Assets/skills/html.png";
+import react from "../../Assets/skills/react.png";
+import redux from "../../Assets/skills/icons8-redux-96(@2x).png";
+import jest from "../../Assets/skills/jest-icon.svg";
+import css from "../../Assets/skills/css.png";
+import api from "../../Assets/skills/api.png";
+import typeScript from "../../Assets/skills/ts.png";
+import styledCopm from "../../Assets/skills/styled-components.png";
 
 
 export const Skills = () => {
@@ -18,55 +18,55 @@ export const Skills = () => {
             id: 0,
             title: "HTML",
             image: html,
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. "
+            description: "Understanding of standardized document markup language, document structure, tags."
         },
         {
             id: 1,
             title: "CSS",
             image: css,
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. "
+            description: "Understanding cascading style sheets, pseudo-elements, modest knowledge of CSS-based animations and preprocessors."
         },
         {
             id: 8,
             title: "JavaScript",
             image: js,
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. "
+            description: "Classic JavaScript language, native techniques. Understanding the Basics. "
         },
         {
             id: 2,
             title: "React",
             image: react,
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. Corporis eius ipsa minus nobis numquam?"
+            description: "Development of websites and applications on REACT. Understanding the core libraries of the libraries that REACT works with."
         },
         {
             id: 6,
             title: "Typescript",
             image: typeScript,
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae."
+            description: ""
         },
         {
             id: 3,
-            title: "Redux/ Redux-Thunk",
+            title: "Redux / Redux-Thunk",
             image: redux,
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae."
+            description: "."
         },
         {
             id: 4,
             title: "Jest",
             image: jest,
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. "
+            description: "Various software testing form TDD, Unit tests and StoryBook."
         },
         {
             id: 5,
-            title: "Styled Components",
+            title: "Styled Components / Material UI",
             image: styledCopm,
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. Corporis eius ipsa minus nobis numquam?"
+            description: ""
         },
         {
             id: 7,
             title: "Rest API",
             image: api,
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam cum est, natus nemo, nihil odit omnis optio perferendis perspiciatis repudiandae sequi suscipit, veniam. "
+            description: ""
         },
     ];
 
@@ -80,9 +80,9 @@ export const Skills = () => {
     );
 
     return (
-        <div className={s.skillsBlock}>
+        <div className={s.skillsBlock} id={'Skills'}>
             <div className={s.titleH2}>
-                <h2>Skills</h2>
+                <h2 className={s.title}>Skills</h2>
             </div>
             <div className={s.skills}>
                 {mapingSkills}

@@ -1,12 +1,12 @@
 import React from 'react';
 import s from "./Footer.module.css";
-import facebook from "../Assets/socialIcon/facebook.png";
-import twitter from "../Assets/socialIcon/twitter.png";
-import linkedIn from "../Assets/socialIcon/Linked.png";
-import telegram from "../Assets/socialIcon/telegram.png";
-import Vk from "../Assets/socialIcon/mail.png";
+import facebook from "../../Assets/socialIcon/facebook.png";
+import twitter from "../../Assets/socialIcon/twitter.png";
+import linkedIn from "../../Assets/socialIcon/Linked.png";
+import telegram from "../../Assets/socialIcon/telegram.png";
+import Vk from "../../Assets/socialIcon/mail.png";
 import {Facebook, Git, LinkedIn, Telegram, Twitter, Vkontakte} from "../Main/Main";
-import git from "../Assets/socialIcon/git.png";
+import git from "../../Assets/socialIcon/git.png";
 
 export const Footer = () => {
     return (

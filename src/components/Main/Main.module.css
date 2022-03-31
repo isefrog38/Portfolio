@@ -1,25 +1,36 @@
 .main {
-    padding-top: 100px;
     width: 100%;
     min-height: 100vh;
-    background: rgba(249, 86, 79, 0.13);
-    z-index: 1;
+    background-image: url("../../Assets/jay-mantri-TFyi0QOx08c-unsplash.jpg");
+    background-size: cover;
 }
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 50px) and (max-width: 1000px) {
     .main {
-        width: 450px;
+        min-height: 140vh;
     }
 }
 
+
 .mainContainer {
+    position: absolute;
+    top: 120px;
     display: flex;
     width: 80%;
-    height: 100%;
-    margin: 0 auto;
+    margin: 0 150px;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+@media (min-width: 50px) and (max-width: 1000px) {
+    .backgroundImg {
+        display: none;
+    }
+    .mainContainer {
+        position: inherit;
+        margin: 0 auto;
+    }
 }
 
 {/* text  */}
@@ -46,23 +57,39 @@
 }
 {/* text  */}
 
-
-
 .HomeInfo {
     height: auto;
-    background-color: white;
+    background: linear-gradient(135deg, rgba(248, 58, 58, 0.27) 10%, rgba(215, 215, 215, 0.56) 50%, rgba(255, 255, 255, 0.78) 100%);
     display: flex;
     flex-direction: column;
     padding: 50px;
+    border-radius: 20px;
+}
+
+.photo_me {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 .HomeInfoPhoto {
-    margin-top: 10px;
-    width: 500px;
-    height: 650px;
-    background-color: white;
+    margin-top: 20px;
+    width: 400px;
+    height: 550px;
+    background-color: transparent;
     float: right;
-    border: 1px dashed orange;
+}
+
+@media (min-width: 50px) and (max-width: 1000px) {
+    .HomeInfo {
+        padding: 30px;
+        margin: 110px 10px;
+    }
+    .HomeInfoPhoto {
+        width: 100%;
+        height: 100%;
+        margin: -50px 0;
+    }
 }
 
 .CNBlock {

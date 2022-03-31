@@ -10,7 +10,7 @@
 
 @media (min-width: 300px) and (max-width: 500px) {
     .allFreelanceBlock {
-        width: 450px;
+        width: 100%;
     }
 }
 

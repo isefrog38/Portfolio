@@ -7,13 +7,17 @@
 
 @media (min-width: 300px) and (max-width: 500px) {
     .mainBlockProject {
-        width: 450px;
+        width: 100%;
     }
+}
+
+.position_block {
+    display: flex;
 }
 
 .allProjectsBlock {
     box-sizing: border-box;
-    width: 90%;
+    width: 80%;
     height: auto;
     display: flex;
     margin: 0 auto;
@@ -25,17 +29,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: x-large;
+    font-size: 1.7rem;
+    margin: 50px 0 ;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .titleProject {
+        margin: 0 0;
+    }
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 
 .imgBlock {
-    width: 350px;
+    width: 100%;
     height: 380px;
     background-color: lightpink;
     display: flex;
@@ -48,14 +60,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
-    min-height: 300px;
+    width: 30%;
+    height: 700px;
     padding: 10px;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 20px;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 3px 3px 5px 1px rgba(169, 169, 169, 0.51);
+}
+
+.button_div {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .oneProject:hover {
@@ -63,27 +83,66 @@
     transition: ease all 0.15s;
     margin: -20px 0 10px 0;
     padding-bottom: 20px;
-    width: 450px;
+    width: 32%;
     min-height: 350px;
 }
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 1300px) and (max-width: 1800px) {
+    .allProjectsBlock {
+        width: 100%;
+        margin: 0 40px;
+    }
     .oneProject {
-        margin: 20px 0 0 0;
+        width: 27%;
+    }
+    .oneProject:hover {
+        box-shadow: 7px -7px 15px 1px #f9564f, -7px 7px 15px 1px #f9564f;
+        transition: ease all 0.15s;
+        margin: -20px 0 10px 0;
+        padding-bottom: 20px;
+        width: 29%;
+        min-height: 350px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1300px) {
+    .allProjectsBlock {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .oneProject {
+        width: 43%;
+    }
+    .oneProject:hover {
+        box-shadow: 7px -7px 15px 1px #f9564f, -7px 7px 15px 1px #f9564f;
+        transition: ease all 0.15s;
+        margin: -20px 0 10px 0;
+        padding-bottom: 20px;
+        width: 45%;
+        min-height: 350px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+    .allProjectsBlock {
+        width: 100%;
+    }
+    .oneProject {
+        width: 90%;
+        margin: 20px auto;
     }
     .oneProject:hover {
         box-shadow: 7px -7px 15px 1px #f9564f, -7px 7px 15px 1px #f9564f;
         transition: ease all 0.15s;
         padding-bottom: 20px;
-        width: 100%;
+        width: 95%;
         min-height: auto;
-        margin: 20px 0 0 0;
+        margin: 20px auto;
     }
 }
 
 .button {
     border: 2px solid;
-    margin-top: 10px;
+    margin: 10px;
     font-size: large;
     padding: 5px 10px;
     border-radius: 10px;
@@ -99,5 +158,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+    .titleAndDescription {
+        width: 100%;
+        justify-content: center;
+    }
 }

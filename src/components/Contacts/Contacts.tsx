@@ -3,9 +3,9 @@ import s from "./Contacts.module.css";
 
 export const Contacts = () => {
     return (
-        <div className={s.mainBlockContact}>
+        <div className={s.mainBlockContact} id={'Contact'}>
             <div className={s.blockContact}>
-                <h3 style={{fontWeight: "800", fontSize: "1.7rem"}}>Contact</h3>
+                <h2 className={s.title}>Contact</h2>
                 <div className={s.allInputsBlock}>
                     <div className={s.inputsBlockSmall}>
                         <h5 style={{fontWeight: "700", fontSize: "1.5rem", margin: "0"}}>Say hello</h5>

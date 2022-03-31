@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: flex-end;
     box-shadow: 0 3px rgba(128, 128, 128, 0.2);
+    z-index: 999;
 }
 
 .headerChild {
@@ -18,106 +19,14 @@
 
 @media (min-width: 300px) and (max-width: 500px) {
     .headerParent {
-        width: 450px;
+        width: 100%;
         justify-content: normal;
     }
     .headerChild {
-        width: 360px;
+        width: 100%;
         margin-right: 0;
     }
 }
-
-/*@media (min-width: 300px) and (max-width: 500px) {
-    .headerParent {
-        position: fixed;
-        z-index: 3;
-        margin-left: 360px;
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
-        overflow: hidden;
-        white-space: nowrap;
-        color: transparent;
-        background-color: #f9564f;
-    }
-
-
-    .spanClosedInvisible {
-        left: 50%;
-        top: 50%;
-        bottom: auto;
-        right: auto;
-        transform: translateX(-50%) translateY(-50%);
-        position: absolute;
-        width: 22px;
-        height: 3px;
-        background-color: #fff;
-    }
-
-    .spanClosedInvisible::before {
-        content: '';
-        top: 0;
-        left: 0;
-        backface-visibility: hidden;
-        transform: translateY(7px);
-        transition: transform .2s;
-        position: absolute;
-        width: 22px;
-        height: 3px;
-        background-color: #fff;
-    }
-
-    .spanClosedInvisible::after {
-        content: '';
-        top: 0;
-        left: 0;
-        backface-visibility: hidden;
-        transform: translateY(-7px);
-        transition: transform .2s;
-        position: absolute;
-        width: 22px;
-        height: 3px;
-        background-color: #fff;
-    }
-
-    .spanOpenInvisible {
-        left: 50%;
-        top: 50%;
-        bottom: auto;
-        right: auto;
-        transform: translateX(-50%) translateY(-50%);
-        position: absolute;
-        width: 22px;
-        height: 3px;
-        background-color: transparent;
-    }
-
-    .spanOpenInvisible::before {
-        content: '';
-        top: 0;
-        left: 0;
-        backface-visibility: hidden;
-        transform: rotate(-45deg);
-        transition: transform .2s;
-        position: absolute;
-        width: 22px;
-        height: 3px;
-        background-color: #fff;
-    }
-
-    .spanOpenInvisible::after {
-        content: '';
-        top: 0;
-        left: 0;
-        backface-visibility: hidden;
-        transform: rotate(45deg);
-        transition: transform .2s;
-        position: absolute;
-        width: 22px;
-        height: 3px;
-        background-color: #fff;
-    }
-}*/
 
 .menuItem {
     text-decoration: none;
@@ -132,7 +41,7 @@
     }
 }
 
-.menuItem:active {
+active {
     /*background-color: #ff362d;*/
     background-color: #f9564f;
     border-radius: 12px;

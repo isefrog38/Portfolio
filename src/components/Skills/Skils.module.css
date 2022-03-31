@@ -7,7 +7,7 @@
 
 @media (min-width: 300px) and (max-width: 500px) {
     .skillsBlock {
-        width: 450px;
+        width: 100%;
     }
 }
 
@@ -18,18 +18,34 @@
     font-size: x-large;
 }
 
-h2{
-    padding: 10px;
-    border: 1px dashed red;
+.title {
+    margin: 70px 0 ;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .title {
+        margin: 40px 0;
+    }
 }
 
 .skills {
     display: flex;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media (min-width: 1600px) and (max-width: 1850px) {
+    .skills {
+        width: 80%;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1600px) {
+    .skills {
+        width: 100%;
+    }
 }
 
 .divJpg {
@@ -48,7 +64,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #9efafa;
+    background-color: #ffffff;
     width: 400px;
     min-height: 300px;
     padding: 10px;

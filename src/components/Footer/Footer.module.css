@@ -6,7 +6,7 @@
 
 @media (min-width: 300px) and (max-width: 500px) {
     .footerBlock {
-        width: 450px;
+        width: 100%;
     }
 }
 

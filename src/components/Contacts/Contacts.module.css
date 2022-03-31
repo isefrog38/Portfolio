@@ -1,12 +1,22 @@
 .mainBlockContact {
     width: 100%;
-    min-height: 100vh;
+    min-height: 85vh;
     background-color: rgba(255, 190, 200, 0.25);
 }
 
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 750;
+    margin: 100px 0;
+}
+
 @media (min-width: 300px) and (max-width: 500px) {
+    .title {
+        margin: 40px 0;
+    }
     .mainBlockContact {
-        width: 450px;
+        width: 100%;
         min-height: 900px;
         background-color: rgba(255, 190, 200, 0.25);
     }
@@ -18,7 +28,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 650px;
 }
 
 @media (min-width: 300px) and (max-width: 500px) {
@@ -55,6 +64,9 @@
 }
 
 @media (min-width: 300px) and (max-width: 500px) {
+    .allInputsBlock {
+        width: 92%;
+    }
     .form {
         display: flex;
         flex-direction: column;
