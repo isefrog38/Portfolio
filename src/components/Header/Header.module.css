@@ -17,50 +17,59 @@
     margin-right: 150px;
 }
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 800px) and (max-width: 1200px) {
+    .headerParent {
+        margin-right: 80px;
+    }
+}
+
+@media (min-width: 50px) and (max-width: 800px) {
     .headerParent {
         width: 100%;
         justify-content: normal;
     }
     .headerChild {
-        width: 100%;
-        margin-right: 0;
+        display: none;
     }
 }
 
 .menuItem {
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
-    font-size: x-large;
-    padding: 5px 10px;
+    font-size: 1.5rem;
+    padding: 10px;
     color: black;
 }
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 800px) {
     .menuItem {
+        font-size: 1rem;
         padding: 0 7px;
     }
 }
 
 active {
-    /*background-color: #ff362d;*/
+    padding: 13px;
     background-color: #f9564f;
-    border-radius: 12px;
+    border-radius: 10px;
     color: white;
-    transition: ease all 0.35s;
+    transition: ease all 0.6s;
 }
 
 .menuItem:focus {
+    padding: 10px;
     background-color: #f9564f;
-    border-radius: 12px;
+    border-radius: 10px;
     color: white;
-    transition: ease all 0.35s;
+    transition: ease all 0.6s;
 }
 
 .menuItem:hover {
+    padding: 10px;
     background-color: #f9564f;
-    border-radius: 12px;
+    border-radius: 10px;
     color: white;
-    transition: ease all 0.25s;
+    transition: ease all 0.6s;
 }
 
 

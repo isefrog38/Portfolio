@@ -1,6 +1,7 @@
 import React from 'react';
 import s from "./Header.module.css";
 import {Link} from 'react-scroll';
+import {Burger} from "../Burger/Burger";
 
 export const Header = () => {
 
@@ -8,6 +9,7 @@ export const Header = () => {
 
     return (
         <div className={s.headerParent}>
+            <Burger state={itemsMenu} />
             <div className={s.headerChild}>
                 {itemsMenu.map((el, index) =>
                     <Link

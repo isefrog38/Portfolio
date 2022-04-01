@@ -15,20 +15,23 @@
 }
 
 .titleFreelance {
+    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     color: white;
     font-size: xx-large;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .buttonContact {
+    font-family: 'Josefin Sans', sans-serif;
     color: #00171f;
     padding: 0 25px;
     line-height: 42px;
     display: inline-block;
     background: white;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
@@ -37,11 +40,17 @@
 .buttonContact:hover {
     color: white;
     background-color:  #ff362d;
-    border: 1px solid white;
+    border: 2px solid white;
+    box-shadow: 0 2px 3px 1px rgba(255, 255, 255, 0.42);
 }
 
 .buttonContact:focus {
     color: white;
     background-color:  #ff362d;
-    border: 1px solid white;
+    border: 2px solid white;
+    box-shadow: 0 2px 3px 1px rgba(255, 255, 255, 0.42);
+}
+
+.Link {
+
 }
