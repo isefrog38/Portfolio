@@ -67,6 +67,7 @@
     flex-direction: column;
     padding: 50px;
     border-radius: 20px;
+    margin-bottom: 100px;
 }
 
 .photo_me {
@@ -77,10 +78,9 @@
 
 .HomeInfoPhoto {
     margin-top: 20px;
-    width: 400px;
-    height: 550px;
+    width: 470px;
+    height: 670px;
     background-color: transparent;
-    float: right;
 }
 
 @media (min-width: 50px) and (max-width: 1000px) {
@@ -110,3 +110,31 @@
     border-radius: 50%;
     margin: 5px;
 }
+
+.description_block {
+    position: absolute;
+    top: 450px;
+    left: 110px;
+    width: 35%;
+    height: auto;
+    background: linear-gradient(135deg,  rgba(215, 215, 215, 0.56) 5%, rgba(248, 58, 58, 0.27) 40%, rgba(255, 255, 255, 0.78) 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+/*.description_text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #282727;
+}
+
+@media (min-width: 50px) and (max-width: 1000px) {
+    .description_block {
+        margin: 90px 0 50px 0;
+        position: inherit;
+        width: 100%;
+    }
+}*/

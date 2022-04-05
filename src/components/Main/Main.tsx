@@ -9,11 +9,11 @@ import git from "../../Assets/socialIcon/git.png";
 import imSeeInUp from "../../Assets/imSeeinUp.jpg";
 
 export const LinkedIn = 'https://www.linkedin.com/in/pashka-kuharchik-74b4b722a/',
-     Vkontakte = 'https://vk.com/pashkakyharchik',
-     Telegram = 'https://t.me/PashkaKuh',
-     Facebook = 'https://www.facebook.com/profile.php?id=100005190454942',
-     Twitter = 'https://twitter.com/juk_nevyvojuk',
-     Git = 'https://github.com/isefrog38';
+    Vkontakte = 'https://vk.com/pashkakyharchik',
+    Telegram = 'https://t.me/PashkaKuh',
+    Facebook = 'https://www.facebook.com/profile.php?id=100005190454942',
+    Twitter = 'https://twitter.com/juk_nevyvojuk',
+    Git = 'https://github.com/isefrog38';
 
 export const Main = () => {
     return (
@@ -35,6 +35,12 @@ export const Main = () => {
                 <div className={s.HomeInfoPhoto}>
                     <img className={s.photo_me} src={imSeeInUp} alt="i_see_in_up"/>
                 </div>
+                {/*<div className={s.description_block}>
+                    <span className={s.description_text}>
+                        I'm responsible React developer. Friendly and passionate about his work. But also a good father and husband.
+                        I like to joke and eat delicious food. I'm not bad at cooking.
+                    </span>
+                </div>*/}
             </div>
         </div>
     );

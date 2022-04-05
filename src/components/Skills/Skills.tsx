@@ -27,50 +27,50 @@ export const Skills = () => {
             description: "Understanding cascading style sheets, pseudo-elements, modest knowledge of CSS-based animations and preprocessors."
         },
         {
-            id: 8,
+            id: 2,
             title: "JavaScript",
             image: js,
             description: "Classic JavaScript language, native techniques. Understanding the Basics. "
         },
         {
-            id: 2,
+            id: 3,
             title: "React",
             image: react,
             description: "Development of websites and applications on REACT. Understanding the core libraries of the libraries that REACT works with."
         },
         {
-            id: 6,
-            title: "Typescript",
+            id: 4,
+            title: "TypeScript",
             image: typeScript,
             description: ""
         },
         {
-            id: 3,
+            id: 5,
             title: "Redux / Redux-Thunk",
             image: redux,
             description: "."
         },
         {
-            id: 4,
-            title: "Jest",
+            id: 6,
+            title: "Jest / TDD / Tests",
             image: jest,
             description: "Various software testing form TDD, Unit tests and StoryBook."
         },
         {
-            id: 5,
+            id: 7,
             title: "Styled Components / Material UI",
             image: styledCopm,
             description: ""
         },
         {
-            id: 7,
-            title: "Rest API",
+            id: 8,
+            title: "Rest API / Axios",
             image: api,
             description: ""
         },
     ];
 
-    const mapingSkills = array.map(el => (
+    const skills = array.map(el => (
         <div key={el.id} className={s.skill}>
             <div className={s.divJpg}><img className={s.img_skills} src={el.image} alt={el.title}/></div>
             <h3>{el.title}</h3>
@@ -85,7 +85,7 @@ export const Skills = () => {
                 <h2 className={s.title}>Skills</h2>
             </div>
             <div className={s.skills}>
-                {mapingSkills}
+                {skills}
             </div>
         </div>
     );
