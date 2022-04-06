@@ -1,13 +1,13 @@
 .main {
     width: 100%;
-    min-height: 120vh;
+    min-height: 110vh;
     background-image: url("../../Assets/jay-mantri-TFyi0QOx08c-unsplash.jpg");
     background-size: cover;
 }
 
 @media (min-width: 50px) and (max-width: 1000px) {
     .main {
-        min-height: 140vh;
+        min-height: 110vh;
     }
 }
 
@@ -82,15 +82,14 @@
     background-color: transparent;
 }
 
+
 @media (min-width: 50px) and (max-width: 1000px) {
     .HomeInfo {
         padding: 30px;
-        margin: 110px 10px;
+        margin: 100px 10px 50px 10px;
     }
     .HomeInfoPhoto {
         width: 100%;
-        height: 100%;
-        margin: -50px 0;
     }
 }
 
