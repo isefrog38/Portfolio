@@ -14,7 +14,7 @@
 
 .mainContainer {
     position: absolute;
-    top: 120px;
+    top: 100px;
     display: flex;
     width: 80%;
     margin: 0 150px;
@@ -78,7 +78,7 @@
 
 .HomeInfoPhoto {
     margin-top: 20px;
-    width: 37%;
+    width: 35%;
     background-color: transparent;
 }
 
