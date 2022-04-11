@@ -69,6 +69,8 @@
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 3px 3px 5px 1px rgba(169, 169, 169, 0.51);
+    transition: width 2s;
+    transition-delay: 1s;
 }
 
 .button_div {
@@ -81,11 +83,11 @@
 
 .oneProject:hover {
     box-shadow: 7px -7px 15px 1px #fbc4c2, -7px 7px 15px 1px #fbc4c2;
-    transition: ease all 0.15s;
     margin: -20px 0 10px 0;
     padding-bottom: 20px;
     width: 32%;
     min-height: 350px;
+    transition: width 2s;
 }
 
 @media (min-width: 1300px) and (max-width: 1800px) {
