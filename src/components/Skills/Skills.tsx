@@ -74,7 +74,7 @@ export const Skills = () => {
         <div key={el.id} className={s.skill}>
             <div className={s.divJpg}><img className={s.img_skills} src={el.image} alt={el.title}/></div>
             <h3>{el.title}</h3>
-            <span>{el.description}</span>
+            {/*<span>{el.description}</span>*/}
         </div>
         )
     );

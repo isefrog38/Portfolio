@@ -26,6 +26,8 @@
 
 .buttonContact {
     font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
     color: #00171f;
     padding: 0 25px;
     line-height: 42px;
@@ -35,9 +37,12 @@
     border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
+
+    transition: all 1s;
 }
 
 .buttonContact:hover {
+    transition: all 1s;
     color: white;
     background-color:  #ff362d;
     border: 2px solid white;
@@ -45,6 +50,7 @@
 }
 
 .buttonContact:focus {
+    transition: all 1s;
     color: white;
     background-color:  #ff362d;
     border: 2px solid white;

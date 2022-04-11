@@ -40,7 +40,7 @@ export const Project = () => {
                 <span>{pr.description}</span>
             </div>
             <div className={s.button_div}>
-                <a href={pr.showSite}><button className={s.button}>View project</button></a>
+                <a href={pr.showSite}><button className={s.button}>Demo</button></a>
                 <a href={pr.showCode}><button className={s.button}>Show Code</button></a>
             </div>
         </div>
