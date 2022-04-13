@@ -83,7 +83,7 @@
 .oneProject:hover {
     box-shadow: 10px -10px 15px 1px #fbc4c2, -10px 10px 15px 1px #fbc4c2;
     transition: all 1s;
-    transition-delay: 1.5s;
+    transition-delay: 1s;
 }
 
 @media (min-width: 1300px) and (max-width: 1800px) {
@@ -97,7 +97,7 @@
     .oneProject:hover {
         box-shadow: 10px -10px 15px 1px #fbc4c2, -10px 10px 15px 1px #fbc4c2;
         transition: all 1s;
-        transition-delay: 1.5s;
+        transition-delay: 1s;
     }
 }
 @media (min-width: 900px) and (max-width: 1300px) {
@@ -111,7 +111,7 @@
     .oneProject:hover {
         box-shadow: 10px -10px 15px 1px #fbc4c2, -10px 10px 15px 1px #fbc4c2;
         transition: all 1s;
-        transition-delay: 1.5s;
+        transition-delay: 1s;
     }
 }
 
@@ -126,7 +126,7 @@
     .oneProject:hover {
         box-shadow: 10px -10px 15px 1px #fbc4c2, -10px 10px 15px 1px #fbc4c2;
         transition: all 1s;
-        transition-delay: 1.5s;
+        transition-delay: 1s;
     }
 }
 
