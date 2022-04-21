@@ -81,9 +81,10 @@
 }
 
 .oneProject:hover {
-    box-shadow: 10px -10px 15px 1px #fbc4c2, -10px 10px 15px 1px #fbc4c2;
-    transition: all 1s;
-    transition-delay: 1s;
+    box-sizing: border-box;
+    box-shadow: 7px -7px 15px 1px #fbc4c2, -7px 7px 15px 1px #fbc4c2;
+
+    transition: all 0.6s;
 }
 
 @media (min-width: 1300px) and (max-width: 1800px) {
@@ -95,9 +96,10 @@
         width: 27%;
     }
     .oneProject:hover {
-        box-shadow: 10px -10px 15px 1px #fbc4c2, -10px 10px 15px 1px #fbc4c2;
-        transition: all 1s;
-        transition-delay: 1s;
+        box-sizing: border-box;
+        box-shadow: 7px -7px 15px 1px #fbc4c2, -7px 7px 15px 1px #fbc4c2;
+
+        transition: all 0.6s;
     }
 }
 @media (min-width: 900px) and (max-width: 1300px) {
@@ -109,9 +111,10 @@
         width: 43%;
     }
     .oneProject:hover {
-        box-shadow: 10px -10px 15px 1px #fbc4c2, -10px 10px 15px 1px #fbc4c2;
-        transition: all 1s;
-        transition-delay: 1s;
+        box-sizing: border-box;
+        box-shadow: 7px -7px 15px 1px #fbc4c2, -7px 7px 15px 1px #fbc4c2;
+
+        transition: all 0.6s;
     }
 }
 
@@ -124,9 +127,10 @@
         margin: 20px auto;
     }
     .oneProject:hover {
-        box-shadow: 10px -10px 15px 1px #fbc4c2, -10px 10px 15px 1px #fbc4c2;
-        transition: all 1s;
-        transition-delay: 1s;
+        box-sizing: border-box;
+        box-shadow: 7px -7px 15px 1px #fbc4c2, -7px 7px 15px 1px #fbc4c2;
+
+        transition: all 0.6s;
     }
 }
 
@@ -139,7 +143,8 @@
     border-radius: 10px;
 }
 
-.button:hover {
+.oneProject:hover .button {
+    transition: all 0.6s;
     background-color: #f9564f;
     color: white;
     border: 2px solid rgba(210, 83, 83, 0.49);

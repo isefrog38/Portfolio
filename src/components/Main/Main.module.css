@@ -95,15 +95,17 @@
 
 .CNBlock {
     display: flex;
+    justify-content: space-around;
+    height: 50px;
 }
 
 .socialNetwork {
-    height: 35px;
-    width: 35px;
+    height: 37px;
+    width: 37px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #f9564f;
+    border: 1px solid #f9564f;
     color: #fff;
     border-radius: 50%;
     margin: 5px;

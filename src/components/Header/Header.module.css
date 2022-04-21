@@ -34,6 +34,7 @@
 }
 
 .menuItem {
+    cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     font-size: 1.5rem;

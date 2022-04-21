@@ -25,6 +25,7 @@
 }
 
 .buttonContact {
+    cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
     overflow: hidden;
@@ -46,7 +47,6 @@
     color: white;
     background-color:  #ff362d;
     border: 2px solid white;
-    box-shadow: 0 2px 3px 1px rgba(255, 255, 255, 0.42);
 }
 
 .buttonContact:focus {
