@@ -9,8 +9,8 @@ export const Project = () => {
             id: 1,
             title: "Todolist",
             image: '',
-            showCode: 'https://github.com/isefrog38/Doggy_TodoList_IT_INC',
-            showSite: 'https://isefrog38.github.io/Doggy_TodoList_IT_INC/',
+            showCode: 'https://github.com/isefrog38/Todolist_V2',
+            showSite: 'https://isefrog38.github.io/Todolist_V2/',
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eius ipsa minus nobis numquam?"
         },
         {
