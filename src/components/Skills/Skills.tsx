@@ -9,6 +9,7 @@ import css from "../../Assets/skills/css.png";
 import api from "../../Assets/skills/api.png";
 import typeScript from "../../Assets/skills/ts.png";
 import styledCopm from "../../Assets/skills/styled-components.png";
+import {Zoom} from "react-awesome-reveal";
 
 
 export const Skills = () => {
@@ -71,11 +72,13 @@ export const Skills = () => {
     ];
 
     const skills = array.map(el => (
-        <div key={el.id} className={s.skill}>
-            <div className={s.divJpg}><img className={s.img_skills} src={el.image} alt={el.title}/></div>
-            <h3>{el.title}</h3>
-            {/*<span>{el.description}</span>*/}
-        </div>
+            <Zoom key={el.id} cascade>
+                <div key={el.id} className={s.skill}>
+                    <div className={s.divJpg}><img className={s.img_skills} src={el.image} alt={el.title}/></div>
+                    <h3>{el.title}</h3>
+                    {/*<span>{el.description}</span>*/}
+                </div>
+            </Zoom>
         )
     );
 

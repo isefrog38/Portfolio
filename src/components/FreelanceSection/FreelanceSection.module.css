@@ -29,34 +29,56 @@
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
     overflow: hidden;
-    color: #00171f;
+    color: rgba(0, 0, 0, 0.95);
     padding: 0 25px;
     line-height: 42px;
     display: inline-block;
     background: white;
     border: 2px solid white;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 1.3rem;
     font-weight: 700;
 
+    webkit-animation: rainbow 2s linear 2s infinite;
+    animation: rainbow 3s linear 3s infinite;
     transition: all 1s;
 }
 
-.buttonContact:hover {
-    transition: all 1s;
-    color: white;
-    background-color:  #ff362d;
-    border: 2px solid white;
-}
 
-.buttonContact:focus {
-    transition: all 1s;
-    color: white;
-    background-color:  #ff362d;
-    border: 2px solid white;
-    box-shadow: 0 2px 3px 1px rgba(255, 255, 255, 0.42);
-}
 
 .Link {
 
+}
+
+
+
+
+@-webkit-keyframes rainbow {
+    0% {background: #ff362d;}
+    50% {background: #ffffff;}
+    100% {background: #ff362d;}
+}
+
+@keyframes rainbow {
+    0% {background: #ff362d;}
+    50% {background: #ffffff;}
+    100% {background: #ff362d;}
+}
+
+@-webkit-keyframes rainbow1 {
+    0% {background: #ff362d;}
+    50% {background: #ffffff;}
+    100% {background: #ff362d;}
+}
+
+@keyframes rainbow1 {
+    0% {background: #ff362d;}
+    50% {background: #ffffff;}
+    100% {background: #ff362d;}
+}
+
+
+.buttonContact {
+    vertical-align: middle;
+    margin-top: 8px;
 }

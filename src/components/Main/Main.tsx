@@ -7,6 +7,8 @@ import facebook from "../../Assets/socialIcon/facebook.png";
 import linkedIn from "../../Assets/socialIcon/Linked.png";
 import git from "../../Assets/socialIcon/git.png";
 import imSeeInUp from "../../Assets/imSeeinUp.jpg";
+import {Fade, Slide, Reveal} from "react-awesome-reveal";
+import ReactTypingEffect from "react-typing-effect";
 
 export const LinkedIn = 'https://www.linkedin.com/in/pashka-kuharchik-74b4b722a/',
     Vkontakte = 'https://vk.com/pashkakyharchik',
@@ -19,28 +21,28 @@ export const Main = () => {
     return (
         <div className={s.main} id={'Home'}>
             <div className={s.mainContainer}>
-                <div className={s.HomeInfo}>
-                    <span className={s.spanText}>Hello There, I'm</span>
-                    <h1 className={s.Name}>Pavel Kuharchik</h1>
-                    <p className={s.whoIam}>Frontend <b style={{color: "#f9564f"}}>Developer</b></p>
-                    <div className={s.CNBlock}>
-                        <a href={Facebook}><img className={s.socialNetwork} src={facebook} alt="facebook"/></a>
-                        <a href={Twitter}><img className={s.socialNetwork} src={twitter} alt="twitter"/></a>
-                        <a href={LinkedIn}><img className={s.socialNetwork} src={linkedIn} alt="linkedIn"/></a>
-                        <a href={Telegram}><img className={s.socialNetwork} src={telegram} alt="telegram"/></a>
-                        <a href={Vkontakte}><img className={s.socialNetwork} src={Vk} alt="mail"/></a>
-                        <a href={Git}><img className={s.socialNetwork} src={git} alt="git"/></a>
+                <Slide>
+                    <div className={s.HomeInfo}>
+                        <Fade cascade>
+                                <span className={s.spanText}>Hello There, I'm</span>
+                                <h1 className={s.Name}>Pavel Kuharchik</h1>
+                                <p className={s.whoIam}>Frontend <b style={{color: "#f9564f"}}><ReactTypingEffect text={["Developer"]} /></b></p>
+                            <div className={s.CNBlock}>
+                                <a href={Facebook}><img className={s.socialNetwork} src={facebook} alt="facebook"/></a>
+                                <a href={Twitter}><img className={s.socialNetwork} src={twitter} alt="twitter"/></a>
+                                <a href={LinkedIn}><img className={s.socialNetwork} src={linkedIn} alt="linkedIn"/></a>
+                                <a href={Telegram}><img className={s.socialNetwork} src={telegram} alt="telegram"/></a>
+                                <a href={Vkontakte}><img className={s.socialNetwork} src={Vk} alt="mail"/></a>
+                                <a href={Git}><img className={s.socialNetwork} src={git} alt="git"/></a>
+                            </div>
+                        </Fade>
                     </div>
-                </div>
+                </Slide>
                 <div className={s.HomeInfoPhoto}>
-                    <img className={s.photo_me} src={imSeeInUp} alt="i_see_in_up"/>
+                    <Reveal>
+                            <img className={s.photo_me} src={imSeeInUp} alt="i_see_in_up"/>
+                    </Reveal>
                 </div>
-                {/*<div className={s.description_block}>
-                    <span className={s.description_text}>
-                        I'm responsible React developer. Friendly and passionate about his work. But also a good father and husband.
-                        I like to joke and eat delicious food. I'm not bad at cooking.
-                    </span>
-                </div>*/}
             </div>
         </div>
     );

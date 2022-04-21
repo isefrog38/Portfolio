@@ -1,5 +1,6 @@
 import React from 'react';
 import s from "./Project.module.css";
+import { Fade } from 'react-awesome-reveal';
 
 export const Project = () => {
 
@@ -32,17 +33,23 @@ export const Project = () => {
 
     const mapingProject = arrayProject.map(pr =>
         <div key={pr.id * 15} className={s.oneProject}>
-            <div className={s.imgBlock}>
-                <div className={s.img}>IMG</div>
-            </div>
-            <div className={s.titleAndDescription}>
-                <h5>{pr.title}</h5>
-                <span>{pr.description}</span>
-            </div>
-            <div className={s.button_div}>
-                <a href={pr.showSite}><button className={s.button}>Demo</button></a>
-                <a href={pr.showCode}><button className={s.button}>Show Code</button></a>
-            </div>
+            <Fade cascade>
+                <div className={s.imgBlock}>
+                    <img src={pr.image} alt={pr.title} className={s.img}/>
+                </div>
+                <div className={s.titleAndDescription}>
+                    <h5>{pr.title}</h5>
+                    <span>{pr.description}</span>
+                </div>
+                <div className={s.button_div}>
+                    <a href={pr.showSite}>
+                        <button className={s.button}>Demo</button>
+                    </a>
+                    <a href={pr.showCode}>
+                        <button className={s.button}>Show Code</button>
+                    </a>
+                </div>
+            </Fade>
         </div>
     );
 

@@ -30,15 +30,15 @@
 }
 
 .socialNetwork {
-    height: 35px;
-    width: 35px;
+    height: 38px;
+    width: 38px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #f9564f;
     color: #fff;
     border-radius: 50%;
     margin: 10px;
+    border: 2px solid #f9564f;
 }
 
 .textFooter{
