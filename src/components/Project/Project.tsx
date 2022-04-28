@@ -8,26 +8,28 @@ export const Project = () => {
         {
             id: 1,
             title: "Todolist",
-            image: '',
+            image: `https://photo.virtualbrest.ru/uploads/2022/04/29/Todo.png`,
             showCode: 'https://github.com/isefrog38/Todolist_V2',
             showSite: 'https://isefrog38.github.io/Todolist_V2/',
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eius ipsa minus nobis numquam?"
+            description: "Creating a task list, working with AXIOS. Work with Redax Toolkit, login, elements of JS Native."
         },
         {
             id: 2,
-            image: '',
+            image: `https://photo.virtualbrest.ru/uploads/2022/04/29/Social-Network.png`,
             title: "Social Network",
             showCode: 'https://github.com/isefrog38/Social_network',
             showSite: 'https://isefrog38.github.io/Social_network/',
-            description: "Lorem ipsum dolor sit amferendis perspiciatis repudiandae."
+            description: "Work on the Social Network, search for films through the implementation of the REST API.\n" +
+                "Creation: Newsfeed, Chat, Find friends, login page. "
         },
         {
             id: 3,
-            image: '',
-            title: "Travel Site",
-            showCode: '',
+            image: 'https://photo.virtualbrest.ru/uploads/2022/04/29/FridayProject.png',
+            title: "Card Training",
+            showCode: 'https://github.com/isefrog38/Part-time_project',
             showSite: '',
-            description: "Lorem ipsum dolor sit amferendis perspiciatis repudiandae."
+            description: "Took part in creating learning app, devepoled login page, menu, tests, modal window.\n" +
+                " I use modern technologies in react. Understand architecture. Active use of typescript"
         },
     ];
 
@@ -35,7 +37,7 @@ export const Project = () => {
         <div key={pr.id * 15} className={s.oneProject}>
             <Fade cascade>
                 <div className={s.imgBlock}>
-                    <img src={pr.image} alt={pr.title} className={s.img}/>
+                    <img src={pr.image}  alt={pr.title} className={s.img}/>
                 </div>
                 <div className={s.titleAndDescription}>
                     <h5>{pr.title}</h5>

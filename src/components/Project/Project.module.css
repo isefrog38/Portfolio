@@ -48,15 +48,23 @@
 }
 
 .imgBlock {
-    width: 340px;
-    height: 380px;
-    background-color: lightpink;
+    margin: 0 auto;
+    width: 90%;
+    height: 300px;
     display: flex;
     align-items: center;
+    border-radius: 10px;
     justify-content: center;
-    border: 2px solid rgba(210, 83, 83, 0.49);
+    border: 1px solid rgba(210, 83, 83, 0.49);
     transition: all 1s;
 }
+
+.img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
 
 .oneProject{
     display: flex;
@@ -102,9 +110,6 @@
 
         transition: all 0.6s;
     }
-    .imgBlock {
-        width: 300px;
-    }
 }
 @media (min-width: 900px) and (max-width: 1300px) {
     .allProjectsBlock {
@@ -119,9 +124,6 @@
         box-shadow: 7px -7px 15px 1px #fbc4c2, -7px 7px 15px 1px #fbc4c2;
 
         transition: all 0.6s;
-    }
-    .imgBlock {
-        width: 250px;
     }
 }
 
@@ -139,9 +141,6 @@
 
         transition: all 0.6s;
     }
-    .imgBlock {
-        width: 350px;
-    }
 }
 
 @media (min-width: 50px) and (max-width: 500px) {
@@ -157,9 +156,6 @@
         box-shadow: 7px -7px 15px 1px #fbc4c2, -7px 7px 15px 1px #fbc4c2;
 
         transition: all 0.6s;
-    }
-    .imgBlock {
-        width: 250px;
     }
 }
 
