@@ -5,12 +5,10 @@ export const instance = axios.create({
 });
 
 export const ContactAPI = {
-    contactForm (contactForm: ContactFormType) {
-        return instance.post<ContactFormType, any>(`/sendMessage`,{contactForm})
+    contactForm(contactForm: ContactFormType) {
+        return instance.post<ContactFormType, any>(`/sendMessage`, {contactForm})
     },
 };
-
-
 
 
 type ContactFormType = {

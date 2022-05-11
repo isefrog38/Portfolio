@@ -26,8 +26,8 @@ export const Project = () => {
             id: 3,
             image: 'https://photo.virtualbrest.ru/uploads/2022/04/29/FridayProject.png',
             title: "Card Training",
-            showCode: 'https://github.com/isefrog38/Part-time_project',
-            showSite: '',
+            showCode: 'https://github.com/isefrog38/Cards_Project_Copy',
+            showSite: 'https://isefrog38.github.io/Cards_Project_Copy',
             description: "Took part in creating learning app, devepoled login page, menu, tests, modal window.\n" +
                 " I use modern technologies in react. Understand architecture. Active use of typescript"
         },
